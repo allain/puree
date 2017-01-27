@@ -23,6 +23,7 @@ function shouldUpdate(current, previous) {
   return !same(current.props, previous.props) || !same(current.children, previous.children)
 }
 
+// TODO: Replace this monstrosity with something lazy
 function same(a, b) {
   if (a === b) return true
   if (typeof a !== typeof b) return false
