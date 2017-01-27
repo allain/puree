@@ -31,7 +31,7 @@ function Menu({items, active, name}) {
 
 function render({items, active, time}) {
   return <div>
-    <p>The Menu Built below receives params that don't change</p>
+    <p>The Menu Built below receives params that do not change</p>
     <Menu name="Static Menu" items={items} active={state.active}/>
 
     <p>The Menu Built below receives params that change (time)</p>
