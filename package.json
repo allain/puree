@@ -1,0 +1,20 @@
+{
+  "name": "puree",
+  "version": "0.1.0",
+  "description": "A small virtual-dom tool for building UIs from pure functions",
+  "main": "index.js",
+  "scripts": {
+    "format": "standard-format --write",
+    "test": "tape test/*.js"
+  },
+  "repository": "https://github.com/allain/puree",
+  "author": "Allain Lalonde <allain.lalonde@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "vdom-to-html": "^2.3.1",
+    "virtual-dom": "^2.1.1"
+  }
+}
